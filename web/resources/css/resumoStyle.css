@@ -175,8 +175,6 @@ p #btSupEs{
 }
 
 p #btInfeEs{
-	--position:relative;
-	//top:590px;
 	background-color:#0047b3;
 	color:white;
 	font-size:16px;
@@ -184,10 +182,9 @@ p #btInfeEs{
 	border-radius:3px;
 }
 section h1#prezadoCliente{
-	--background-color:#0047b3;
+	
 	font-size:22px;
-	//text-align:center;
-	//border: 2px solid rgba(0,0,0,0.3);
+	
 }
 
 

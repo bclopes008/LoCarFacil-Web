@@ -3,7 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
     <h:head>
-        <title>Facelet Title</title>
+        <title>Listagem de produtos</title>
+        <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+            <h:outputStylesheet name="css/bootstrap.min.css" />
+            <h:outputStylesheet name="css/listagemProdutosStyle.css" />
+            <h:outputScript name="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" />
+            <h:outputScript name="js/bootstrap.min.js" />
+
+
     </h:head>
     <h:body>
 
@@ -65,7 +74,7 @@
             <div class="row">
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoA.png" alt="grupo A - Econômico" title="Grupo A - Econômico">
+                        <img src="resources/imagens/grupoA.png" alt="grupo A - Econômico" title="Grupo A - Econômico"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo A - Econômico</h3>
@@ -78,7 +87,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoB.png" alt="grupo B - Econômico com Ar" title="Grupo B - Econômico com Ar">
+                        <img src="resources/imagens/grupoB.png" alt="grupo B - Econômico com Ar" title="Grupo B - Econômico com Ar"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo B - Econômico com Ar</h3>
@@ -90,7 +99,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoC.png" alt="grupo C - Econômico Plus" title="Grupo C - Econômico Plus">
+                        <img src="resources/imagens/grupoC.png" alt="grupo C - Econômico Plus" title="Grupo C - Econômico Plus"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo C - Econômico Plus</h3>
@@ -102,7 +111,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoD.png" alt="grupo D - Intermediário" title="Grupo D - Intermediário">
+                        <img src="resources/imagens/grupoD.png" alt="grupo D - Intermediário" title="Grupo D - Intermediário"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo D - Intermediário</h3>
@@ -114,7 +123,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoE.png" alt="grupo E - Intermediário Plus" title="Grupo E - Intermediário Plus">
+                        <img src="resources/imagens/grupoE.png" alt="grupo E - Intermediário Plus" title="Grupo E - Intermediário Plus"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo E - Intermediário Plus</h3>
@@ -126,7 +135,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoF.png" alt="grupo F - Intermediário Automático " title="Grupo F - Intermediário Automático">
+                        <img src="resources/imagens/grupoF.png" alt="grupo F - Intermediário Automático " title="Grupo F - Intermediário Automático"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo F - Intermediário Auto</h3>
@@ -139,7 +148,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoG.png" alt="grupo G - Executivo Especial" title="Grupo G - Executivo Especial">
+                        <img src="resources/imagens/grupoG.png" alt="grupo G - Executivo Especial" title="Grupo G - Executivo Especial"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo G - Executivo Especial</h3>
@@ -152,7 +161,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoH.png" alt="grupo H - Executivo Luxo" title="Grupo H - Executivo Luxo">
+                        <img src="resources/imagens/grupoH.png" alt="grupo H - Executivo Luxo" title="Grupo H - Executivo Luxo"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo H - Executivo Luxo</h3>
@@ -165,7 +174,7 @@
 
                 <section class="col-md-4 col-sm-6 col-xs-12">
                     <div class="thumbnail">
-                        <img src="imagens/grupoI.png" alt="grupo I - LoCarFácil Prime" title="Grupo I - LoCarFácil Prime">
+                        <img src="resources/imagens/grupoI.png" alt="grupo I - LoCarFácil Prime" title="Grupo I - LoCarFácil Prime"/>
                             <p class="infoIlustrativa">Imagem Ilustrativa</p>
                             <div class="caption">
                                 <h3>Grupo I - LoCarFácil Prime</h3>
@@ -184,35 +193,35 @@
         <footer class="row">
 
             <div class="col-md-3 col-sm-6 col-xs-8">
-                <a href="#"><img src="imagens/Fale.png" alt="Fale Conosco" title="Fale Conosco"></a>
+                <a href="#"><img src="resources/imagens/Fale.png" alt="Fale Conosco" title="Fale Conosco"/></a>
                 <div class="caption">
                     <a href="#"><h3 id="fale">Fale Conosco</h3></a>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 col-xs-8">
-                <a href="#"><img src="imagens/Central.png" alt="Central de Resevas" title="Central de Resevas"></a>
+                <a href="#"><img src="resources/imagens/Central.png" alt="Central de Resevas" title="Central de Resevas"/></a>
                 <div class="caption">
                     <a href="#"><h3>Central de Resevas</h3></a>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 col-xs-8">
-                <a href="#"><img src="imagens/Perguntas.png" alt="Perguntas Frequentes" title="Perguntas Frequentes"></a>
+                <a href="#"><img src="resources/imagens/Perguntas.png" alt="Perguntas Frequentes" title="Perguntas Frequentes"/></a>
                 <div class="caption">
                     <a href="#"><h3>Perguntas Frequentes</h3></a>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 col-xs-8">
-                <a href="#"><img src="imagens/Assistência.png" alt="Assistência Tecnica" title="Assistência Tecnica"></a>
+                <a href="#"><img src="resources/imagens/Assistência.png" alt="Assistência Tecnica" title="Assistência Tecnica"/></a>
                 <div class="caption">
                     <a href="#"><h3>Assistência Tecnica</h3></a>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12"" id="voltarTopo">
+                <div class="col-md-12 col-sm-12 col-xs-12" id="voltarTopo">
                     <p><a href="#retorno">Voltar ao Topo <span class="glyphicon glyphicon-menu-up" ></span></a></p>
                 </div>
             </div>
